@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+/* DrumMachine.css */
+.DrumMachine {
+  margin: 20px;
+}
+
+.DrumPad {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.DrumPad:hover {
+  background-color: #ccc;
+}
