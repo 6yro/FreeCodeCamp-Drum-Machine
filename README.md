@@ -2,6 +2,8 @@
 
 ## This is the solution to [FreeCodeCamp Front End Libraries Projects - Build a Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine)
 
+## You can see live demo [here](https://vercel.com/aksenenko-mikhails-projects)
+
 Objective: Build an app that is functionally similar to this: https://drum-machine.freecodecamp.rocks/.
 
 Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
@@ -33,6 +35,9 @@ Open-HH
 Kick-n'-Hat
 Kick
 Closed-HH
+
 # FreeCodeCamp-Drum-Machine
+
 # FreeCodeCamp-Drum-Machine
+
 # Drum-Machine

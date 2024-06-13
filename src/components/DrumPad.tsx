@@ -1,5 +1,7 @@
 import { Dispatch, useRef } from "react";
 
+import Button from "@mui/material/Button";
+
 type DrumPadProps = {
   soundKey: string;
   soundName: string;
@@ -19,7 +21,12 @@ export const DrumPad: React.FC<DrumPadProps> = ({
   };
 
   return (
-    <button className="drum-pad" id={soundName} onClick={handleClick}>
+    <Button
+      className="drum-pad"
+      id={soundName}
+      onClick={handleClick}
+      variant="outlined"
+    >
       {soundKey}
       <audio
         ref={audioRef}
@@ -27,6 +34,6 @@ export const DrumPad: React.FC<DrumPadProps> = ({
         id={soundKey}
         src={`sounds/${soundName}.mp3`}
       ></audio>
-    </button>
+    </Button>
   );
 };
