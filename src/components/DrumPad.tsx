@@ -21,7 +21,12 @@ export const DrumPad: React.FC<DrumPadProps> = ({
   };
 
   return (
-    <Button id={soundName} onClick={handleClick} variant="outlined">
+    <Button
+      id={soundName}
+      onClick={handleClick}
+      variant="outlined"
+      className="drum-pad"
+    >
       {soundKey}
       <audio
         ref={audioRef}
