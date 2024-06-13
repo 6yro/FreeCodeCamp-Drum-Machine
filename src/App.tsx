@@ -58,12 +58,12 @@ const App = () => {
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
-      for (let i = 0; i < drumPads.length; i++) {
-        const audio = drumPads[i].lastElementChild! as HTMLAudioElement;
+      const audio = document.querySelector(
+        `#${e.key}`
+      ) as HTMLAudioElement | null;
 
-        if (audio.id === e.key.toUpperCase()) {
-          audio.play();
-        }
+      if (audio) {
+        audio.play();
       }
     };
 
