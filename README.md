@@ -2,7 +2,7 @@
 
 ## This is the solution to [FreeCodeCamp Front End Libraries Projects - Build a Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine)
 
-## You can see live demo [here](https://vercel.com/aksenenko-mikhails-projects)
+## You can see live demo [here](https://free-code-camp-drum-machine.vercel.app/)
 
 Objective: Build an app that is functionally similar to this: https://drum-machine.freecodecamp.rocks/.
 
